@@ -1,0 +1,67 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "vim.smartRelativeLine": true,
+    "vim.statusBarColorControl": false,
+    "workbench.colorCustomizations": {
+        "[One Dark Pro]": {
+            "titleBar.activeBackground": "#1bc8d47b"
+        },
+    },
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "mikoz.black-py",
+    },
+    "codetags.custom": [
+        {
+            "name": "CAVEAT",
+            "body": "Implementation details/gotchas that stand out as non-intuitive."
+        },
+        {
+            "name": "SEE",
+            "body": "Pointers to other code, web link, etc."
+        },
+        {
+            "name": "RFE",
+            "body": "Requests For Enhancement: Roadmap items not yet implemented."
+        },
+        {
+            "name": "REQ",
+            "body": "Requirements: Satisfactions of specific, formal requirements."
+        },
+        {
+            "name": "???",
+            "body": "Questions: Misunderstood details."
+        },
+        {
+            "name": "HACK",
+            "body": "Temporary code to force inflexible functionality, or simply a test change, or workaround a known problem."
+        },
+        {
+            "name": "NOBUG",
+            "body": "Will Not Be Fixed: Problems that are well-known but will never be addressed due to design problems or domain limitations."
+        }
+    ],
+    "cSpell.words": [
+        "COOLDOWN",
+        "fastapi",
+        "infile",
+        "pinia",
+        "pydantic",
+        "pygraphviz",
+        "pylance",
+        "rushstack",
+        "sprinker",
+        "vuex"
+    ],
+    "python.testing.pytestArgs": [
+        "pasture"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+}
